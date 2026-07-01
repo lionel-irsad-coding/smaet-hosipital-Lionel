@@ -88,13 +88,14 @@ DEPT_INFO = {
 # ── Hero Header ───────────────────────────────────────────────────────────────
 st.markdown("""
 <!-- COLOR1 -->
-<div style="background:linear-gradient(135deg,#f60606 0%,#4fff0a 60%,#c10cdd 100%);
+<div style="background:linear-gradien( rgb(91, 214, 255),rgb(119, 234, 223),rgb(93, 255, 206) 100%);
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
         🏥 Future Classroom · Machine Learning
     </div>
     <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
+
                 letter-spacing:-0.02em;">
         Smart Hospital Patient Navigator
     </div>
