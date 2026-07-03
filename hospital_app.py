@@ -206,7 +206,7 @@ with st.form("triage_form"):
     # Section 5 — Patient Info
     st.markdown("""
     <!-- COLOR6 -->
-    <div style="background:#0432ea;border:1px solid #fafaf9;border-radius:14px;
+    <div style="background:#becbff;border:1px solid #71fffa;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#0ae3f2;color:white;border-radius:8px;
