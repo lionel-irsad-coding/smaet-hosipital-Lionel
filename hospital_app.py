@@ -222,7 +222,7 @@ with st.form("triage_form"):
     with col_gen:
         gender = st.selectbox("Gender", options=['Female', 'Male'])
 
-    submitted = st.form_submit_button("CODENO27 →")
+    submitted = st.form_submit_button("Get AI information→")
 
 # ── Result ────────────────────────────────────────────────────────────────────
 if submitted:
@@ -258,7 +258,7 @@ if submitted:
 
     st.markdown("---")
     st.markdown("""
-    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">CODENO28</div>
+    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">w</div>
     <div style="font-size:14px;color:#6b7280;margin-bottom:1.5rem;">CODENO29</div>
     """, unsafe_allow_html=True)
 
