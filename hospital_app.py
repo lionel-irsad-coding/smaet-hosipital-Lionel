@@ -144,31 +144,31 @@ with st.form("triage_form"):
     # Section 2 — Duration & Complaint
     st.markdown("""
     <!-- COLOR3 -->
-    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
+    <div style="background:#ccfcff;border:1px solid #5ae7e0;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#25f20a;color:white;border-radius:8px;
+            <span style="background:#51fae9;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO14</span>
+            <span style="font-size:16px;font-weight:600;color:#50545e;">How long have you had these symptoms</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     col_cc, col_dur = st.columns(2)
     with col_cc:
-        chief_complaint = st.selectbox("CODENO15", options=list(cc_map.keys()))
+        chief_complaint = st.selectbox("chief complaint", options=list(cc_map.keys()))
     with col_dur:
-        duration = st.selectbox("CODENO16", options=list(dur_map.keys()), index=1)
+        duration = st.selectbox("Duration", options=list(dur_map.keys()), index=1)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
     # Section 3 — Severity
     st.markdown("""
     <!-- COLOR4 -->
-    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
+    <div style="background:#4cecae;border:1px solid #29cbd3;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#25f20a;color:white;border-radius:8px;
+            <span style="background:#4d5e5e;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">3</span>
             <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO17</span>
         </div>
