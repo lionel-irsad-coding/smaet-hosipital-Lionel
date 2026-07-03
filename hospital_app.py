@@ -186,7 +186,7 @@ with st.form("triage_form"):
     # Section 4 — Medical History
     st.markdown("""
     <!-- COLOR5 -->
-    <div style="background:#2340ff;border:1px solid #eff2d1;border-radius:14px;
+    <div style="background:#a9e2f8;border:1px solid #eff2d1;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#0af2db;color:rgb(53, 34, 255);border-radius:8px;
