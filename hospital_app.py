@@ -165,12 +165,12 @@ with st.form("triage_form"):
     # Section 3 — Severity
     st.markdown("""
     <!-- COLOR4 -->
-    <div style="background:#4cecae;border:1px solid #29cbd3;border-radius:14px;
+    <div style="background:#4cecae;border:1px solid #c4f0f2;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#4d5e5e;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">3</span>
-            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO17</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">How would you rate the Severity</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
