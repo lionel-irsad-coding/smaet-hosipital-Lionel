@@ -55,7 +55,7 @@ cc_map        = bundle['cc_map']
 DEPT_INFO = {
     'Respiratory Medicine': {
         'icon':'🫁','color':'#0284c7','bg':'#e0f2fe','border':'#7dd3fc',
-        'desc':'CODENO33',
+        'desc':'Specialises in conditions affecting the lungs and always',
         'next':['Visit Level 2, Wing B','Estimated wait: 15–25 min','Please wear a mask']
     },
     'Cardiology': {
