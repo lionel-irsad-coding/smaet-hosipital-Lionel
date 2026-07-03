@@ -65,7 +65,7 @@ DEPT_INFO = {
     },
     'Gastroenterology': {
         'icon':'🫃','color':'#d97706','bg':'#fef3c7','border':'#fcd34d',
-        'desc':'CODENO35',
+        'desc':'Specialises in disgetive system and abdominal conditions',
         'next':['Visit Level 1, Wing C','Estimated wait: 10–20 min','Avoid eating before consultation']
     },
     'Neurology': {
